@@ -1,7 +1,7 @@
 # TOR-IP update script 
 # by SylPrz
 # This script is used to update the TOR-IP object-group containing suspicious IP addresses.
-# v0.85 IOS no interact
+# v0.85 Cisco IOS no interact
 
 #::cisco::eem::event_register_timer cron name _crontimer cron_entry "0 3 * * *" maxrun_sec 600
 
